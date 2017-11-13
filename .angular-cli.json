@@ -1,0 +1,85 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "admin-bsb-material"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "../bsb_modules/plugins/bootstrap/css/bootstrap.css",
+        "../bsb_modules/plugins/node-waves/waves.css",
+        "../bsb_modules/plugins/animate-css/animate.css",
+        "../bsb_modules/plugins/morrisjs/morris.css",
+        "../bsb_modules/css/style.css",
+        "../bsb_modules/css/themes/all-themes.css",
+        "styles.css"
+      ],
+      "scripts": [
+        "../bsb_modules/plugins/jquery/jquery.min.js",
+        "../bsb_modules/plugins/bootstrap/js/bootstrap.js",
+        "../bsb_modules/plugins/bootstrap-select/js/bootstrap-select.js",
+        "../bsb_modules/plugins/jquery-slimscroll/jquery.slimscroll.js",
+        "../bsb_modules/plugins/node-waves/waves.js",
+        "../bsb_modules/plugins/jquery-countto/jquery.countTo.js",
+        "../bsb_modules/plugins/raphael/raphael.min.js",
+        "../bsb_modules/plugins/morrisjs/morris.js",
+        "../bsb_modules/plugins/chartjs/Chart.bundle.js",
+        "../bsb_modules/plugins/flot-charts/jquery.flot.js",
+        "../bsb_modules/plugins/flot-charts/jquery.flot.resize.js",
+        "../bsb_modules/plugins/flot-charts/jquery.flot.pie.js",
+        "../bsb_modules/plugins/flot-charts/jquery.flot.categories.js",
+        "../bsb_modules/plugins/flot-charts/jquery.flot.time.js",
+        "../bsb_modules/plugins/jquery-sparkline/jquery.sparkline.js",
+        "../bsb_modules/js/admin.js",
+        "../bsb_modules/js/pages/index.js",
+        "../bsb_modules/js/demo.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
