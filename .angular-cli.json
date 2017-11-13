@@ -25,6 +25,9 @@
         "../bsb_modules/plugins/morrisjs/morris.css",
         "../bsb_modules/css/style.css",
         "../bsb_modules/css/themes/all-themes.css",
+        "../bsb_modules/plugins/sweetalert/sweetalert.css",
+        "../bsb_modules/plugins/ion-rangeslider/css/ion.rangeSlider.css",
+        "../bsb_modules/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.css",
         "styles.css"
       ],
       "scripts": [
@@ -44,8 +47,12 @@
         "../bsb_modules/plugins/flot-charts/jquery.flot.time.js",
         "../bsb_modules/plugins/jquery-sparkline/jquery.sparkline.js",
         "../bsb_modules/js/admin.js",
+        "../bsb_modules/js/pages/ui/notifications.js",
         "../bsb_modules/js/pages/index.js",
-        "../bsb_modules/js/demo.js"
+        "../bsb_modules/js/demo.js",
+        "../bsb_modules/plugins/sweetalert/sweetalert.min.js",
+        "../bsb_modules/plugins/ion-rangeslider/js/ion.rangeSlider.js",
+        "../bsb_modules/js/pages/ui/range-sliders.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
